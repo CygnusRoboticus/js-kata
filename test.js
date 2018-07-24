@@ -10,15 +10,15 @@ describe('CleverArray is so smart it can even', () => {
     });
 
     it('with updates to the array', () => {
-      const cleverArray = new CleverArray([1, 2, 3]);
+      const cleverArray = new CleverArray(1, 2, 3);
       assert.equal(cleverArray.sum, 6);
-      cleverArray.concat([4, 5]);
+      cleverArray.push(4, 5);
       assert.equal(cleverArray.sum, 15);
     });
 
     it('an empty array', () => {
       const cleverArray = new CleverArray();
-      assert.equal(cleverArray.sum, NaN);
+      assert.ok(isNaN(cleverArray.sum));
     });
   });
 
@@ -29,15 +29,15 @@ describe('CleverArray is so smart it can even', () => {
     });
 
     it('with updates to the array', () => {
-      const cleverArray = new CleverArray([1, 2, 3]);
+      const cleverArray = new CleverArray(1, 2, 3);
       assert.equal(cleverArray.average, 2);
-      cleverArray.concat([4, 5]);
+      cleverArray.push(4, 5);
       assert.equal(cleverArray.average, 3);
     });
 
     it('an empty array', () => {
       const cleverArray = new CleverArray();
-      assert.equal(cleverArray.average, NaN);
+      assert.ok(isNaN(cleverArray.average));
     });
   });
 });
