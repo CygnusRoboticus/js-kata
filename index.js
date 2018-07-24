@@ -7,18 +7,18 @@ class SpeshulArray {
     this.numbers.push(...numbers);
   }
 
-  sum() {
+  get sum() {
     if(!this.numbers.length) {
       return NaN;
     }
     return this.numbers.reduce((sum, n) => sum + n);
   }
 
-  average() {
+  get average() {
     if (!this.numbers.length) {
       return NaN;
     }
-    return this.sum() / this.numbers.length;
+    return this.sum / this.numbers.length;
   }
 }
 
