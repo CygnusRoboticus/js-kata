@@ -1,4 +1,4 @@
-import assert from 'assert';
+import * as assert from 'power-assert';
 import { describe, it } from 'mocha';
 import CleverArray from './index';
 
