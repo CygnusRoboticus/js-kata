@@ -1,3 +1,4 @@
-export default {
-  //implement me
-}
+
+export default class {
+  
+};
