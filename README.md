@@ -5,7 +5,7 @@ Implement an export from `index.js` by making the failing tests pass!
 ## Getting Started
 - `yarn install`
 - `npm test`
-- Walk them through getting the first test passing. That should be enough to get them going for the other three!
+- Getting the first test passing is a big step! That should be enough to get the other five passing.
 
 ## Consider
-Passing this challenge is not the goal. Seeing how someone approaches implementing a solution is what is valuable!
+Passing this challenge is not the goal. Seeing how someone approaches implementing a solution is what is valuable.
