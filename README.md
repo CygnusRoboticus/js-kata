@@ -1,6 +1,6 @@
 # JS Kata
 A simple code challenge to test Javascript knowledge.
-Implement an export by making the failing tests pass!
+Implement an export from `index.js` by making the failing tests pass!
 
 ## Getting Started
 - `yarn install`
