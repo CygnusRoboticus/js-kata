@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-core/register"
+    "test": "mocha --require esm"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/CygnusRoboticus/js-kata#readme",
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-plugin-transform-builtin-extend": "^1.1.2",
-    "babel-preset-es2015": "^6.24.1",
+    "esm": "^3.2.22",
     "mocha": "^5.2.0"
   }
 }
